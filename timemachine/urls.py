@@ -22,5 +22,5 @@ from timeteller.views import base
 urlpatterns = [
     path('',base),
     path('admin/', admin.site.urls),
-    path('timeteller/', include('timeteller.urls'))
+    path('', include('timeteller.urls'))
 ]
